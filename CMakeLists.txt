@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(c_plus_stl)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(c_plus_stl main.cpp 01_string_1.cpp 01_string_2.cpp 02_vector_1.cpp 02_vector_2.cpp 03_deque_1.cpp 03_deque_2.cpp 04_stack_1.cpp 05_queue_1.cpp 06_list_1.cpp 07_set_1.cpp 08_pair_1.cpp 09_map_1.cpp 09_case_practice.cpp 10_alg_1.cpp 10_alg_2.cpp 10_alg_3.cpp 10_alg_adapter_4.cpp 10_alg_foreach_5.cpp 10_alg_find_6.cpp 10_alg_sort_7.cpp 10_alg_copy_8.cpp 10_alg_9.cpp 10_alg_set_10.cpp speechContest_case.cpp 05_queue_2.cpp 11_alg_min_element.cpp 13_ocp.cpp 12_class_relation.cpp 14_dip.cpp 15_singleton_1.cpp 15_singleton_2.cpp 16_factory_mode_1.cpp 16_factory_mode_2.cpp 15_singleton_3.cpp 16_factory_mode_3.cpp 17_builder_1.cpp 18_prototype_1.cpp 19_proxy_1.cpp 19_proxy_2.cpp 20_decorator_1.cpp 20_decorator_2.cpp "21_adapter _1.cpp" "21_adapter _2.cpp" "21_adapter _3.cpp" 22_bridge_1.cpp 22_bridge_2.cpp 23_template_1.cpp 24_command_1.cpp 25_strategy_1.cpp 26_mediator_1.cpp 26_mediator_2.cpp 27_observer_1.cpp 28_visitor_1.cpp)
